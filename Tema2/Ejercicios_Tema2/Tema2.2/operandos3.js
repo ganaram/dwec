@@ -10,7 +10,7 @@ const arr = [1,4,5,5,2,6,7,1,4,6]
 function quienEsMayor(a,b){
     let resultado;
 
-    if(typeof a !== "number" || typeof b !== "number"){
+    if(typeof a !== "number" || typeof a !== "number"){
         return "Mala asignacion, introduce numeros";
     }
 
@@ -19,9 +19,7 @@ function quienEsMayor(a,b){
     return resultado
 
 }
-
-console.log(typeof(1/0))
-console.log(quienEsMayor(1/0,2))
+console.log(quienEsMayor(1/0,2/0))
 
 //Dado un array de elementos, devuelve la suma de todos aquellos que los elementos sean pares
 function sumarElementosPares(elemetos){
